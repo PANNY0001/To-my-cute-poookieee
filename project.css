@@ -47,11 +47,11 @@ button:nth-child(2) {
     color: #e94d58;
 }
 .img-gif {
-    float: right;
-    padding-right: 40%;
+    float-right: 50%;
     text-align: center;
 
 }
+
 
 
 

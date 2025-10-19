@@ -47,10 +47,12 @@ button:nth-child(2) {
     color: #e94d58;
 }
 .img-gif {
-    float-right: 50%;
+    float: right;
     text-align: center;
+    margin: 20px 0;
 
 }
+
 
 
 

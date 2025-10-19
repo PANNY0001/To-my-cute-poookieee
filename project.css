@@ -48,9 +48,10 @@ button:nth-child(2) {
 }
 .img-gif {
     float: right;
-    margin-right: 40px;
+    padding-right: 40%;
     text-align: center;
 
 }
+
 
 

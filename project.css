@@ -47,6 +47,7 @@ button:nth-child(2) {
     color: #e94d58;
 }
 .img-gif {
-    float: right;
+    float: center;
     text-align: center;
+
 }

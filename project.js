@@ -5,7 +5,7 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Yeah, hey! I'll see you then on Wednesday :)";
+  question.innerHTML = "Yeah, hey! I'll see you then on October 31 >⩊<";
   gif.src ="hehehehe.gif";
 });
 
@@ -19,4 +19,5 @@ noBtn.addEventListener("mouseover", () => {
 
   noBtn.style.left = randomX + "px";
   noBtn.style.top = randomY + "px";
+
 });

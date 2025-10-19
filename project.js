@@ -1,16 +1,23 @@
-const noBtn = document.querySelector('.no-btn');
-const yesBtn = document.querySelector('.yes-btn');
+const wrapper = document.querySelector(".wrapper");
+const question = document.querySelector(".question");
+const gif = document.querySelector(".gif");
+const yesBtn = document.querySelector(".yes-btn");
+const noBtn = document.querySelector(".no-btn");
 
-// When the mouse hovers over "No" button, move it to a random position
-noBtn.addEventListener('mouseover', () => {
-  const x = Math.random() * (window.innerWidth - noBtn.clientWidth);
-  const y = Math.random() * (window.innerHeight - noBtn.clientHeight);
-
-  noBtn.style.left = `${x}px`;
-  noBtn.style.top = `${y}px`;
+yesBtn.addEventListener("click", () => {
+  question.innerHTML = "Yeah, hey! I'll see you<br>then on October 31 >⩊<";
+  gif.src ="cat-hyppy.gif";
 });
 
-// When clicking "Yes"
-yesBtn.addEventListener('click', () => {
-  alert('Yay! See you on October 31 💖🐹');
+noBtn.addEventListener("mouseover", () => {
+  const noBtnRect = noBtn.getBoundingClientRect();
+  const maxX = window.innerWidth - noBtnRect.width;
+  const maxY = window.innerHeight - noBtnRect.height;
+
+  const randomX = Math.floor(Math.random() * maxX);
+  const randomY = Math.floor(Math.random() * maxY);
+
+  noBtn.style.left = randomX + "px";
+  noBtn.style.top = randomY + "px";
+
 });

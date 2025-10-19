@@ -50,6 +50,16 @@ button:nth-child(2) {
     text-align: center;
 
 }
+.img-gif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* optional */
+}
+.img-gif img {
+    max-width: 100%;
+    height: auto;
+}
 
 
 

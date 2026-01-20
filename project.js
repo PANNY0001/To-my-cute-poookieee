@@ -5,7 +5,7 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "(⁠ ⁠◜⁠‿⁠◝⁠ ⁠)⁠♡";
+  question.innerHTML = "You remembered(⁠ ⁠◜⁠‿⁠◝⁠ ⁠)⁠♡";
   window.location.href = "https://youtu.be/Nxhk4uMukyY";
   gif.src ="cat-hyppy.gif";
 });
@@ -22,6 +22,7 @@ noBtn.addEventListener("mouseover", () => {
   noBtn.style.top = randomY + "px";
 
 });
+
 
 
 

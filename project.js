@@ -7,7 +7,7 @@ const noBtn = document.querySelector(".no-btn");
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "You remembered(⁠ ⁠◜⁠‿⁠◝⁠ ⁠)⁠♡";
   window.location.href = "https://youtu.be/Nxhk4uMukyY";
-  gif.src ="tkthao219-bubududu.gif.webp";
+  gif.src ="Love.gif";
 });
 
 noBtn.addEventListener("mouseover", () => {
@@ -22,6 +22,7 @@ noBtn.addEventListener("mouseover", () => {
   noBtn.style.top = randomY + "px";
 
 });
+
 
 
 

@@ -5,7 +5,8 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "bayot gyud diay ka jecel<br> HAHAHAH";
+  question.innerHTML = "(⁠ ⁠◜⁠‿⁠◝⁠ ⁠)⁠♡";
+  window.location.href = "https://youtu.be/Nxhk4uMukyY";
   gif.src ="cat-hyppy.gif";
 });
 
@@ -21,6 +22,7 @@ noBtn.addEventListener("mouseover", () => {
   noBtn.style.top = randomY + "px";
 
 });
+
 
 
 
